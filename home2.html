@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoGuards</title>
+<!--font cdn-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--custom css file link-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style_Component.css">
+</head>
+<body>
+  <!-------------small device- menubutton-->
+  <div id="menu-btn_leftBar" onclick="toggleLeftSideNav_Active()" class="fas fa-bars"></div>
+  <div class="leftside-bar">
+  
+    <nav class="sidenavbar">
+      <!--<a href="#home"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>-->
+      <i class="fas fa-times btn-box-close" onclick="toggleLeftSideNav_Active()" ></i>
+  
+      
+      <div class="title1">Home</div>
+      <a class="listItem" href="#about-area"><i class="fas fa-question"></i><span>about</span></a>
+      <a class="listItem" href="#helpers"><i class="fab fa-hire-a-helper"></i><span>helpers</span></a>
+      <a class="listItem" href="#gallery-section"><i class="fa-solid fa-image"></i><span>gallery</span></a>
+      <a class="listItem" href="#contact.html"><i class="fas fa-headset"></i><span>contact</span></a>
+    </nav>
+    </div>
+ <div class="MidleRowContiner" >  
+<!-----------------------side bar section ------------------------>
+<!--------------------------empty Div for leftbar space------------->
+<div></div>
+
+
+<div class="right-bar">
+<div class="section-row" id="home">
+  <!-- <div class="col-lg-6 col-md-12 site-title">-->
+
+     <h class="title1 text-uppercase">Nature First</h>
+   
+     <div class="title2 text-uppercase">For a healthy, relaxing and happy world</div>
+   
+     <p class="para">Lets create a new economy , where wealth is measured by beauty, health, freedom and happiness, instead of production. Lets adopt a life style , where fresh air, water and organic foods recieves it's due apreciation, instead of artificial substances that cause environment dammage and can be toxic.</p>
+      <div class="d-flex flex-row flex-wrap" style="padding:1rem 0;">
+      </br>
+   <!--<div class="col-lg-6 col-md-12">-->
+   <div class="col-lg-6 col-md-12">
+    
+      <img src="./images/Header_Main.jpg" alt="banner-image" style="width:100%">
+    
+   
+    <!-- <img src="https://drive.google.com/uc?id=1V2-zoPicPfqVS27Ji8CIpfpYWeMDsXu" alt="banner-image" style="width:100%">  <img src="https://drive.google.com/file/d/1V2-zoPicPfqVS27Ji8CIpfpYWeMDsXun/view?usp=sharing" alt="banner-image" style="width:100%">
+     -->
+     
+
+     
+    </div>
+ </div>
+ </div>
+
+<!-----------------------about area------------------------------>
+<div class="section-row" id="about-area">
+  </br>
+
+  <div class="sectiontitle text-uppercase">About</div>
+   
+     <h4 class="text-uppercase"><span>Conservation</span> of <span>Nature</span>
+     </h4>
+     
+     <!--<div class="paragraph py-4 w-75">-->
+    <p class="para">Our overall goal is conservation of nature. We consider nature as the creator, and supreme in beauty and health.To achieve this we will strive to build a sustainable economy and environment, and theirby conserve natural resources in its original, pristine beauty. In this process we will promote :  Reduce, ReUse , ReCycling and Re-newables; and demote over-construction, over-production,and over-use of resouces.
+     </p>
+</br>
+     <h4 class="title2 text-uppercase">Our Organization</h4>
+     <p class="para">
+      The organization is based on principles of: non violence, not corrupt , discipline, freedom of expression, and unity through equal treatment (justice for all) .The members and leaders (elected) will function on these principles to achieve our goals.The key strength of the organization is it's members, and the leaders shall be representatives of the members. Leaders are elected (except the founder, all others are elected) fairly, for a limited term of 5 years , and will operate in a sense of obligation to nature. Transparency and access of information shall be ensured in all levels. 
+      
+      <!--The leaders ( elected) who violate these principles shall be removed by majority vote.-->
+    </p>
+   
+  <div > 
+    <div class="about-image">
+      <img src="./images/simpleLIfe.png" alt="About Us" style="width:100%" class="image-fluid">
+      </div>
+    <div class="about-image" style="padding:1rem 0 1rem 0;">
+    <img src="./images/missionPic.png" alt="About Us" style="width:100%" class="image-fluid">
+    </div>
+    
+  </div>
+  
+<!-- </div>-->
+</div>    
+ <!-----------------gallery   ------------------------->
+ <div id="gallery-section" class="section-row  gallery-area" >
+</br>
+
+<div class="sectiontitle text-uppercase">Gallery</div>
+  <div class="page-tabs" style="margin:10px;">
+    <div class="icon-prev" onclick="galleryPrevPage()"><i class="fa-solid fa-chevron-left"></i></div>
+    <div class="icon-next" onclick="galleryNextPage()"><i class="fa-solid fa-chevron-right"></i></div>
+   </div>
+   
+
+  <div id="gallery" class="gallery" style="padding:10px 0 0 0; ">
+            <!-- <div class="horizontal"> <img src="./images/gallery/3.webp"> </div>
+             <div class="horizontal"> <img src="./images/gallery/6.jpg"> </div>
+             <div class="horizontal"> <img src="./images/gallery/7.jpg"> </div>
+             <div class="vertical"> <img src="./images/gallery/8.jpg"> </div>
+             <div class="horizontal"> <img src="./images/gallery/9.jpg"> </div>
+             <div class="vertical"> <img src="./images/gallery/10.jpg"> </div>
+             <div class="square"> <img src="./images/gallery/11.jpg"> </div>
+             <div class="square"> <img src="./images/gallery/12.jpg"> </div>
+             <div class="horizontal"> <img src="./images/gallery/13.jpg"> </div>
+             <div class="horizontal"> <img src="./images/gallery/14.jpg"> </div>
+             <div class="square"> <img src="./images/gallery/15.jpg"> </div>
+            -->
+  </div>
+</div>
+
+<!-------------------------------------projects-------------------->
+
+  <div class="section-row" id="projects">
+    <div class="sectiontitle text-uppercase">Projects</div>
+    <div class="box-container">
+      
+        <div class="box">
+          <div class="project-box">
+            <img src="images/projects/1.jpg" alt="nature projects">
+            <div>
+              <h3>Commercial Plantation</h3>
+              <span>tree planting for commercial use, and ecofriendly products.</span>
+            </div>
+          </div>
+          <p>playlists:<span>4</span></p>
+          <p>total likes:<span>1200</span></p>
+          <a href="" class="inline-btn">project details</a>
+        </div>
+    
+    
+        <div class="box">
+          <div class="project-box">
+            <img src="images/projects/2.jpg" alt="nature projects">
+            <div>
+              <h3>Commercial Plantation</h3>
+              <span>tree planting for commercial use, and ecofriendly products.</span>
+            </div>
+          </div>
+          <p>playlists:<span>4</span></p>
+          <p>total likes:<span>1200</span></p>
+          <a href="" class="inline-btn">project details</a>
+        </div>
+    
+        <div class="box">
+          <div class="project-box">
+            <img src="images/projects/3.jpg" alt="nature projects">
+            <div>
+              <h3>Commercial Plantation</h3>
+              <span>tree planting for commercial use, and ecofriendly products.</span>
+            </div>
+          </div>
+          <p>playlists:<span>4</span></p>
+          <p>total likes:<span>1200</span></p>
+          <a href="" class="inline-btn">project details</a>
+        </div>
+        <div class="box">
+          <div class="project-box">
+            <img src="images/projects/4.jpg" alt="nature projects">
+            <div>
+              <h3>Commercial Plantation</h3>
+              <span>tree planting for commercial use, and ecofriendly products.</span>
+            </div>
+          </div>
+          <p>playlists:<span>4</span></p>
+          <p>total likes:<span>1200</span></p>
+          <a href="" class="inline-btn">project details</a>
+        </div>
+    
+      
+    </div>
+    
+    
+    
+      
+     </div>
+</div>
+<!--custom js file link-->
+<!--<script src="./js/projects.js"></script> <script src="js/script.js"></script>-->
+<script src="js/script_Component.js"></script>
+<script src="js/script_Component_Home.js"></script>
+</div> 
+</body>
+</html>

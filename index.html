@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nature conserve|nature love|ecoguards</title>
+<!--font cdn-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--custom css file link-->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <header class="navheader">
+           
+      <div class="Left_LinksMenuContainer">
+       
+         <div class="logoDiv">EcoGuards</div>
+  
+          <div class="LargeDeviceMenu">
+        <button class="menuitem" onclick="ShowPageOnBoard('home2.html')" >Home</button>
+          <button class="menuitem" onclick="ShowPageOnBoard('members2.html')" >Members</button>
+      
+            <div class="menuitem search-div">
+              <input class="menuitem" type="text" name="search-box" required placeholder="search" maxlength="200"></input>
+              <button type="submit" class="menuitem fas fa-search" name="search-box"></button>
+            </div>
+          </div>
+      
+          </div>
+      <div class="TopBar_Right_icons">
+       
+    <div class="dropdown_SmallDevice">
+      <div id="menu-btn" class="menuitem fas fa-ellipsis-v"></div>
+     
+        <div class="dropdown-content">
+          <!----
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>-->
+        <button  onclick="ShowPageOnBoard('home2.html')" >Home</button>
+        <button  onclick="ShowPageOnBoard('members2.html')" >Members</button>
+        <div class="menuitem search-div">
+          <input class="menuitem" type="text" name="search-box" required placeholder="search" maxlength="200"></input>
+          <button type="submit" class="menuitem fas fa-search" name="search-box"></button>
+        </div>
+      </div>
+    </div> 
+
+<div >
+<div id="user-btn" onclick="toggleTopBarRight_ProfileBox()" class="menuitem fas fa-user"></div>
+
+
+
+    <div class="profile">
+
+      <i class="fas fa-times btn-box-close" onclick="toggleTopBarRight_ProfileBox()"></i>
+
+      <img src="images/avatar1.jpg" alt="">
+    </br>
+     <!--
+      <div class="flex-btn">
+        <button onclick="ShowPageOnBoard('')" class ="btn">Profile</button>
+          <button onclick="ShowPageOnBoard('')" class ="btn">Logout</button>
+      </div>-->
+      <div class="flex-btn">
+        <button onclick="ShowPageOnBoard('login.html')" class ="btn">Login</button>
+          <button onclick="ShowPageOnBoard('register.html')" class ="btn">Register</button>
+      </div>
+    </div>
+  </div>
+
+<div onclick="onClick_ColorTheme()" id="ColorThemeToggle-btn" class="menuitem fas fa-sun"></div>
+ 
+</div>
+  </header >
+
+  <iframe id="Ifram_subWindow" src="home2.html"  width="100%" title="Embedded Page"> <!-- width="800" height="600" title="Embedded Page"></iframe>-->
+  </iframe>
+ <!--------------------------footer------------------>
+<footer class="footer">
+  &copy: copyright @ 2024 : <span>Prototype of a responsive website by L.Dilrukshi Perera</span> | all rights reserved!
+</footer>
+
+<!--custom js file link-->
+<!--<script src="./js/projects.js"></script>-->
+<script src="js/script.js"></script>
+</body>
+</html>

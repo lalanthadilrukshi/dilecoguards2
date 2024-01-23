@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoGuards</title>
+<!--font cdn-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--custom css file link-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style_Component.css">
+</head>
+<body>
+  <div class="message">
+    <span></span>
+    <i class="fas fa-times" onclick="this.parentElement.remove()"></i>
+  </div>
+ <div class="MidleRowContiner" >  
+<!-----------------------side bar section ------------------------>
+<div class="leftside-bar">
+  
+<nav class="sidenavbar">
+  <!--<a href="#home"><i class="fas fa-home"></i><span>home</span></a>
+  <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>-->
+  <div class="navheading">Home</div>
+  <a class="listItem" href="#about-area"><i class="fas fa-question"></i><span>about</span></a>
+  <a class="listItem" href="#helpers"><i class="fab fa-hire-a-helper"></i><span>helper</span></a>
+  <a class="listItem" href="#gallery-section"><i class="fa-solid fa-image"></i><span>gallery</span></a>
+  <a class="listItem" href="#contact.html"><i class="fas fa-headset"></i><span>contact</span></a>
+</nav>
+</div>
+
+<div class="right-bar">
+<div class="section-row form-container" id="home">
+  <form action="" method="post" enctype="multipart/form-data">
+    <h3>register now</h3>
+    <div class="flex">
+      <div class="col">
+      <p> your name<span>*</span></p>
+      <input type="text" name="name" maxlength="50" required placeholder="enter your name" class="box">
+      
+      <p> your profession<span>*</span></p>
+      <select name="profession" class="box">
+        <option value="" disable selected>--select your profession</option>
+        <option value="designer">designer</option>
+        <option value="musician">musician</option>
+        <option value="biologis">biologis</option>
+        <option value="teacher">teacher</option>
+        <option value="engineer">engineer</option>
+        <option value="lawyer">lawyer</option>
+        <option value="accountant">accountant</option>
+        <option value="doctor">doctor</option>
+        <option value="journalist">journalist</option>
+        <option value="photographer">photographer</option>
+        <option value="Labour Service">labour service</option>
+        <option value="agriculturist">agriculturist</option>
+        </select>
+        <p> your email<span>*</span></p>
+        <input type="email" name="email" maxlength="50" required placeholder="enter your email" class="box">
+      </div>
+      <div class="col">
+        <p> your password<span>*</span></p>
+        <input type="password" name="pwd" maxlength="20" required placeholder="enter your password" class="box">
+                <p> confirm password<span>*</span></p>
+        <input type="password" name="c_pwd" maxlength="20" required placeholder="confirm your password" class="box">
+        <input type="file" name="image" class="box" required accept="image/*">
+        <input type="submit" value="register now" name="submit" class="btn">
+        <p class="link">already have an account? <a href="login.php">login now</a></p>
+           
+      </div>
+    
+    
+    </div>
+        
+    </form>
+ </div>
+ </div>
+
+<!--custom js file link-->
+<script src="js/script_Component_Home.js"></script>
+</div> 
+</body>
+</html>
