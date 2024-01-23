@@ -1,0 +1,11 @@
+
+
+
+  .form-container{
+    min-height:100vh; /*calc(100vh-var(--navbarHeightAndFooterHeight));*/
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: red;
+  }
+  

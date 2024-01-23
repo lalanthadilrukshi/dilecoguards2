@@ -1,0 +1,44 @@
+
+
+.sidenavbar .search-item{
+   
+    display:flex;
+    align-items:center;
+    gap:1.5rem;
+    padding:1.5rem;
+    border-radius:.5rem;
+   background-color: var(--light-bg);
+ 
+
+
+}
+.sidenavbar .search-item input{
+font-size:1.5rem;
+color:var(--black);
+background:none;
+
+}
+.sidenavbar .search-item button{
+font-size:2rem;
+cursor:pointer;
+color:var(--black);
+background:none;
+margin-left: auto;
+
+}
+
+.section-row{
+    height:100%;
+}
+.box-container{
+    height:100%;
+}
+
+.box-container .box img{
+   min-width: 10rem;
+   max-width:10rem;
+   min-height: 12rem;
+   max-height:12rem;
+   border-radius:50% 
+    
+    }
