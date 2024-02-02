@@ -33,3 +33,8 @@ function toggleLeftSideNav_Active(){
   leftsidebar.classList.toggle('active');
   
   }
+
+  function ShowPageOnRightBoard(url){
+    document.getElementById("Ifram_subWindow_right").src = url
+     // window.location.reload();/* this is necessary to refresh child pages in iframe*/
+     }
