@@ -27,18 +27,16 @@ margin-left: auto;
 
 }
 
-.section-row{
-    height:100%;
-}
+
 .box-container{
     height:100%;
 }
 
-.box-container .box img{
+.right-bar .section-row .box-container .box .project-box  img{
    min-width: 10rem;
    max-width:10rem;
-   min-height: 12rem;
-   max-height:12rem;
+   min-height: 15rem;
+   max-height:15rem;
    border-radius:50% 
     
     }
