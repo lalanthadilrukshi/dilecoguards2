@@ -9,7 +9,7 @@
 <!--custom css file link-->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style_Component.css">
-<link rel="stylesheet" href="css/style_Component_members.css">
+<link rel="stylesheet" href="css/style_Component_Members.css">
 </head>
 <body>
   <!-------------small device- menubutton-->
@@ -19,14 +19,19 @@
     <nav class="sidenavbar">
       <!--<a href="#home"><i class="fas fa-home"></i><span>home</span></a>
       <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>-->
-      <i class="fas fa-times btn-box-close" onclick="toggleLeftSideNav_Active()" ></i>
-  
+      <i class="fas fa-times btn-box-close" onclick="toggleLeftSideNav_Active()"></i>
+     <div class="navheading">Members</div>
+     <div class="listItem"onclick="ShowPageOnRightBoard('')">
+        <i class="fa fa-info-circle" aria-hidden="true"></i><span>All Members</span>
+     </div>
+     <div class="listItem"onclick="ShowPageOnRightBoard('')">
+        <i class="fa-solid fa-blog"></i><span>Veterans</span>
+     </div>
+     <div class="listItem"onclick="ShowPageOnRightBoard('')">
+        <i class="fa-solid fa-gear"></i><span>Groups</span>
+     </div>
       
-      <div class="navheading">Members</div>
-      <a class="listItem" href="#about-area">members</a>
-      <a class="listItem" href="#helpers">comments</a>
-      <a class="listItem" href="#gallery-section">events</a>
-      <a class="listItem" href="#contact.html">posts</a>
+      
     </nav>
     </div>
  <div class="MidleRowContiner" >  
@@ -41,7 +46,7 @@
       
         <div class="box">
           <div class="project-box">
-            <img src="images/avatar1.jpg" alt="nature projects">
+            <img src="images/avatar1.jpg" alt="nature projects" class="image">
             <div>
               <h3>John Doe</h3>
               <span>tree planting for commercial use, and ecofriendly products.</span>
@@ -55,7 +60,7 @@
     
         <div class="box">
           <div class="project-box">
-            <img src="images/avatar1.jpg" alt="nature projects">
+            <img src="images/avatar1.jpg" alt="nature projects" class>
             <div>
               <h3>John Doe</h3>
               <span>tree planting for commercial use, and ecofriendly products.</span>
@@ -104,13 +109,7 @@
         </div>
       
     </div>
-    
-    
-    
-      
-     </div>
-
-
+  </div>
 </div>
 <!--custom js file link-->
 <!--<script src="./js/projects.js"></script> <script src="js/script.js"></script>-->
